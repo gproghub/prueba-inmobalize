@@ -8,7 +8,6 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
   const [isMobileNavOpen, setMobileNavIsOpen] = useState(false);
-  console.log(isMobileNavOpen);
 
   return (
     <>
@@ -27,7 +26,6 @@ const Navbar = () => {
             Register
           </Link>
         </div>
-        {isMobileNavOpen && <div>caca</div>}
       </div>
     </>
   );

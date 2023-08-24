@@ -11,9 +11,9 @@ import { FaTiktok, FaTelegram, FaFacebookF } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="flex flex-col items-center bg-black text-white gap-8 py-10">
-      <p className="flex items-center gap-1 cursor-pointer">
+      <Link className="flex items-center gap-1 cursor-pointer" href={'#'}>
         Volver arriba <AiOutlineArrowUp />
-      </p>
+      </Link>
       <div className="flex gap-4">
         <Link href={'/'}>
           <AiOutlineInstagram size={40} />
